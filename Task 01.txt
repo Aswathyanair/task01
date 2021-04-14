@@ -1,0 +1,19 @@
+Do a write up for the followings:? 
+1. Difference between HTTP1.1 vs HTTP2 
+
+HTTP/2 is faster in terms of performance and site loading time than HTTP1.
+
+
+2. http version history ?
+The initial version of HTTP had no version number; it has been later called 0.9 to differentiate it from the later versions. HTTP/0.9 is the one-line protocol(GET/mypage.html).HTTP/0.9 was very limited and both browsers and servers quickly extended it to be more versatile.HTTP/1.0 is the building extensibility(HTTP headers).HTTP/1.0 is not following any official standards.So the HTTP/1.1 the standardized protocol is introduced and it has been maintaining the extension over more than 15 years.
+
+3. List 5 difference between Browser JS(console) vs Nodejs ?
+1.Browser engine as like JS core in safari and Spidermonkey in   Firefox. Nodejs can only run in V8 engine of google chrome.
+2. In the browser, most of the time what you are doing is    interacting with the DOM, or other Web Platform APIs like    Cookies. Those do not exist in Node.js.
+3. In the browser, we don't have all the nice APIs that Node.js provides through its modules, like the filesystem access functionality.
+4. You can use Babel to transform your code to be ES5-compatible before shipping it to
+   Node.js uses the CommonJS module system, while in the browser we are starting to see the ES Modules standard being implemented the browser, but in Node.js, you won't need that.
+5.Browser requires less coding time where as Node.js requires coding time.
+
+4. what happens when you type a URL in the address bar in the browser?
+The DNS(domain Name server) convert the URL into respective IP address.Then it is send to Internet service provider and initiate the TCP connection.Then the HTTP request has been send to the server,then it will respond with the HTTP respond code.If the requested file is available then the content is retrieved to the browser and the rendering engine and browser engine will perform their task and the requested file is displayed and the process time of the above process in a fraction of second.
